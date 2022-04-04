@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	background: url('../img/back.jpg');
+}
+.mainTitle{
+	text-align: center;
+	color: #4e1319;
+	padding: 30px 0 0 0;
+	font-size:40px;
+}
+.wrapper{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container{
+	margin-top: -50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 350px;
+	height: 350px;
+	background: #92242F;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 15px #4e1319;
+}
+.card{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	color: #FCD7DB;
+	justify-content: space-between;
+}
+select{
+	border-radius: 10px;
+	background: #FCD7DB;
+	border: none;
+	outline: none;
+	color: #78333a;
+	width: 50%;
+	padding: 5px 0 5px 15px;
+	font-size: 16px;
+	font-weight: 500;
+}
+label{
+	display: flex;
+	justify-content: space-between;
+}
+label input{
+	border-radius: 10px;
+	background: #FCD7DB;
+	border: none;
+	outline: none;
+	color: #78333a;
+	padding: 4px 0 4px 10px;
+	font-size: 16px;
+	font-weight: 500;
+}
+.submitQuestions{
+	padding: 10px 100px;
+	position: absolute;
+	bottom: -70px;
+	border: none;
+	border-radius: 30px;
+	background: #BC4E59;
+	right: 3.5rem;
+	color: #FCD7DB;
+	font-size: 16px;
+	outline: 0;
+	transition: .3s;
+}
+.submitQuestions:hover{
+	background: transparent;
+	color: #BC4E59;
+	box-shadow: inset 0 0 10px #BC4E59;
+	box-shadow: 0 0 10px #57201c;
+}

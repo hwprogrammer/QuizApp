@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	background: url('../img/back.jpg') center / cover no-repeat;
+}
+.container{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.authCard{
+	height: 250px;
+	width: 400px;
+	color: #FCD7DB;
+	border-radius: 10px;
+	padding: 20px;
+	display: flex;
+	background-color: #BC4E59;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.authTitle{
+	font-size: 35px;
+	font-weight: 300;
+}
+.authCard input{
+	border-radius: 10px;
+	background: #FCD7DB;
+	border: none;
+	outline: none;
+	padding: 4px 0 4px 10px;
+	font-size: 14px;
+	font-weight: 500;
+	color: #721c25;
+}
+.login{
+	padding: 5px 15px;
+	border-radius: 5px;
+	border:1px solid #FCD7DB;
+	color: #FCD7DB;
+	background: transparent;
+	transition: .3s;
+	outline: none;
+}
+.login:hover{
+	background: #FCD7DB;
+	color: #621b22;
+
+}

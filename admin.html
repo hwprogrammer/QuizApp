@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/admin.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=BIZ+UDGothic:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap"
+			rel="stylesheet"
+		/>
+		<title>admin</title>
+	</head>
+	<body>
+		<h1 class="mainTitle">Admin Panel</h1>
+
+		<div class="wrapper">
+			<div class="container">
+				<div class="card">
+					<label>
+						<span>Theme</span>
+						<select id="themes"></select>
+					</label>
+					<label for="question">
+						<span>Вопрос: </span>
+						<input type="text" id="question" />
+					</label>
+					<label for="a">
+						<span>Вариант 1:</span>
+						<input type="text" id="a" class="option" />
+					</label>
+					<label for="b">
+						<span>Вариант 2:</span>
+						<input type="text" id="b" class="option" />
+					</label>
+					<label for="c">
+						<span>Вариант 3:</span>
+						<input type="text" id="c" class="option" />
+					</label>
+					<label for="d">
+						<span>Вариант 4:</span>
+						<input type="text" id="d" class="option" />
+					</label>
+					<label>
+						<span>Right Answer: </span>
+						<select id="rightOption">
+							<option value="a">A</option>
+							<option value="b">B</option>
+							<option value="c">C</option>
+							<option value="d">D</option>
+						</select>
+					</label>
+				</div>
+				<button class="submitQuestions">Submit</button>
+			</div>
+		</div>
+		<script src="./js/admin.js"></script>
+	</body>
+</html>
