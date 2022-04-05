@@ -3,6 +3,7 @@ const $optionSelect = document.querySelector('#rightOption')
 const $allOptions = document.querySelectorAll('.option')
 const $submit = document.querySelector('.submitQuestions')
 const $question = document.querySelector('#question')
+const $back = document.querySelector('.back')
 
 window.addEventListener('load', () => {
 	const auth = JSON.parse(localStorage.getItem('auth'))
@@ -48,6 +49,11 @@ $submit.addEventListener('click', (e) => {
 	}
 	localStorage.setItem('quizData', JSON.stringify(database))
 	window.location.reload()
+})
+
+$back.addEventListener('click', (e) => {
+	e.preventDefault()
+	window.open('../themes.html', '_self')
 })
 
 function newQuestion() {

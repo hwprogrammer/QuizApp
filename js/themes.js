@@ -142,10 +142,12 @@ function chooseTheme(item) {
 $addTheme.addEventListener('click', (e) => {
 	e.preventDefault()
 	const newTheme = prompt('new theme')
-	const themes = JSON.parse(localStorage.getItem('themes'))
-	const allThemes = [...themes, newTheme]
-	localStorage.setItem('themes', JSON.stringify(allThemes))
-	window.location.reload()
+	if (newTheme) {
+		const themes = JSON.parse(localStorage.getItem('themes'))
+		const allThemes = [...themes, newTheme]
+		localStorage.setItem('themes', JSON.stringify(allThemes))
+		window.location.reload()
+	}
 })
 
 $addQuestions.addEventListener('click', (e) => {

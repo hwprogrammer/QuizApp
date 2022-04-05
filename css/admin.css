@@ -88,3 +88,12 @@ label input{
 	box-shadow: inset 0 0 10px #BC4E59;
 	box-shadow: 0 0 10px #57201c;
 }
+.back {
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+	z-index: 100;
+	width: 80px;
+	filter: invert(10%);
+	cursor: pointer;
+}
