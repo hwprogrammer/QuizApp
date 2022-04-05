@@ -38,6 +38,7 @@ body {
 	color: #57201c;
 	transition: .3s;
 	cursor: pointer;
+	margin: 15px 0;
 }
 .card:hover {
 	background: transparent;
