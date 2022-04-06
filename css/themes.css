@@ -17,7 +17,13 @@ body {
 	justify-content: center;
 	align-items: center;
 }
+@media (max-width: 768px) {
+	.wrapper{
+		padding: 20px 15px;
+	}
+}
 .card-container{
+	padding: 15px 0;
 	width: 800px;
 	min-height: 500px;
 	background: #c04b43a3;
@@ -38,7 +44,7 @@ body {
 	color: #57201c;
 	transition: .3s;
 	cursor: pointer;
-	margin: 15px 0;
+	margin-bottom: 15px;
 }
 .card:hover {
 	background: transparent;
