@@ -21,6 +21,9 @@ body {
 	.wrapper{
 		padding: 20px 15px;
 	}
+	.card-container{
+		padding: 10px;
+	}
 }
 .card-container{
 	padding: 15px 0;
